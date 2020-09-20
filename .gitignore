@@ -1,4 +1,7 @@
 env/
 nohup.out
 lab3/*.hd5/
-
+lab4/flower_photos/
+lab4/*.hd5/
+lab4/samples/
+*.pyc
