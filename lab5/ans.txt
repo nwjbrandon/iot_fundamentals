@@ -1,0 +1,27 @@
+Question 1a)
+openssl genrsa -out client.key 2048
+
+Question 1b)
+openssl req -new -key client.key -out client.csr
+
+Question 2)
+openssl x509 -req -in client.csr -extfile <(printf "subjectAltName=IP:192.168.50.190") -CA ca.pem -CAkey ca.key -CAcreateserial -out client.crt -days 500 -sha256
+
+Question 3)
+USERID = "nwjbrandon"
+PASSWORD = "password"
+def setup(hostname):
+    client = mqtt.Client()
+    client.connect(hostname, 1883, 60)
+    client.username_pw_set(USERID, PASSWORD)
+    client.tls_set("/home/nwjbrandon/mqtt/ca.pem", "/home/nwjbrandon/mqtt/broker.crt", "/home/nwjbrandon/mqtt/broker.key")
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.loop_start()
+    return client
+
+Question 4)
+The node will not connect
+
+Question 5)
+Do not share the private key
