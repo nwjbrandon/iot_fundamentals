@@ -16,7 +16,7 @@ BIOS_INC  = -I"/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios
 
 TARGET_INC = -I"/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/"
 
-INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code" --include_path="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code" --include_path="/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272" --include_path="/home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include"  -I/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ 
+INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code" --include_path="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code" --include_path="/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272" --include_path="/home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include"  -I/home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ 
 
 CC = /home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl -c $(CCOPTS) -I /home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include
 ASM = /home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl -c $(CCOPTS) -I /home/nwjbrandon/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include

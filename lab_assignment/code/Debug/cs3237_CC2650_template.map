@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker Unix v20.2.1                   
 ******************************************************************************
->> Linked Tue Nov  3 11:58:58 2020
+>> Linked Sat Nov  7 13:47:26 2020
 
 OUTPUT FILE NAME:   <cs3237_CC2650_template.out>
 ENTRY POINT SYMBOL: "ResetISR"  address: 00004f8d
@@ -1171,8 +1171,8 @@ section   page    origin      length       input sections
 .vecs      0    20000000    000000c8     NOLOAD SECTION
                   20000000    000000c8     main_pem3.oem3 (.vecs)
 
-xdc.meta   0    00000000    0000010d     COPY SECTION
-                  00000000    0000010d     main_pem3.oem3 (xdc.meta)
+xdc.meta   0    00000000    000000fa     COPY SECTION
+                  00000000    000000fa     main_pem3.oem3 (xdc.meta)
 
 xdc.noload 
 *          0    00000000    00000000     COPY SECTION
@@ -1197,12 +1197,12 @@ MODULE SUMMARY
     +--+---------------------------------+-------+---------+---------+
        Total:                            4368    582       7307   
                                                                   
-    /home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Debug/configPkg/package/cfg/
+    /home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Debug/configPkg/package/cfg/
        main_pem3.oem3                    896     1487      2866   
     +--+---------------------------------+-------+---------+---------+
        Total:                            896     1487      2866   
                                                                   
-    /home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/src/sysbios/rom_sysbios.aem3
+    /home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/src/sysbios/rom_sysbios.aem3
        rom_sysbios.obj                   2519    0         0      
        rom_sysbios_config.obj            26      0         0      
     +--+---------------------------------+-------+---------+---------+
@@ -1693,11 +1693,11 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 00004945  SensorUtil_convertToLe                                                    
 00000000  __ASM__                                                                   
 20002008  __CIOBUF_                                                                 
-00000087  __ISA__                                                                   
-00000099  __PLAT__                                                                  
+00000074  __ISA__                                                                   
+00000086  __PLAT__                                                                  
 20005000  __STACK_END                                                               
 00000300  __STACK_SIZE                                                              
-000000c0  __TARG__                                                                  
+000000ad  __TARG__                                                                  
 000078c8  __TI_CINIT_Base                                                           
 00007928  __TI_CINIT_Limit                                                          
 00007884  __TI_Handler_Table_Base                                                   
@@ -1712,7 +1712,7 @@ ffffffff  __TI_prof_data_start
 000076d0  __TI_static_base__                                                        
 000052e9  __TI_writemsg                                                             
 00006115  __TI_zero_init                                                            
-000000e5  __TRDR__                                                                  
+000000d2  __TRDR__                                                                  
 0000379d  __aeabi_cdcmpeq                                                           
 0000379d  __aeabi_cdcmple                                                           
 00003823  __aeabi_cdrcmple                                                          
@@ -2386,10 +2386,10 @@ address   name
 00000000  ti_sysbios_family_arm_m3_Hwi_resetVectors                                 
 00000001  xdc_runtime_Startup__EXECFXN__C                                           
 00000001  xdc_runtime_Startup__RESETFXN__C                                          
-00000087  __ISA__                                                                   
-00000099  __PLAT__                                                                  
-000000c0  __TARG__                                                                  
-000000e5  __TRDR__                                                                  
+00000074  __ISA__                                                                   
+00000086  __PLAT__                                                                  
+000000ad  __TARG__                                                                  
+000000d2  __TRDR__                                                                  
 00000100  ti_sysbios_knl_Task_Object__PARAMS__C                                     
 0000013c  ti_sysbios_knl_Mailbox_Object__PARAMS__C                                  
 00000170  ti_sysbios_family_arm_m3_Hwi_Object__PARAMS__C                            

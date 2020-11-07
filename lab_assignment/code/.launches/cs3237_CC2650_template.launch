@@ -4,7 +4,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.CC2650F128.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="${build_artifact:cs3237_CC2650_template}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.CC2650F128.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="cs3237_CC2650_template"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:cs3237_CC2650_template}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.CC2650F128.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Debug/cs3237_CC2650_template.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.CC2650F128.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Debug/cs3237_CC2650_template.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/cs3237_CC2650_template"/>
 </listAttribute>

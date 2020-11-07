@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/main_pem3.xdl
-	$(SED) 's"^\"\(package/cfg/main_pem3cfg.cmd\)\"$""\"/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Debug/configPkg/\1\""' package/cfg/main_pem3.xdl > $@
+	$(SED) 's"^\"\(package/cfg/main_pem3cfg.cmd\)\"$""\"/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Debug/configPkg/\1\""' package/cfg/main_pem3.xdl > $@
 	-$(SETDATE) -r:max package/cfg/main_pem3.h compiler.opt compiler.opt.defs

@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: '/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/main.cfg',
+        cfgScript: '/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/main.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../main.cfg',
-    outputPath: '/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Debug/configPkg',
+    outputPath: '/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Debug/configPkg',
     exeName:    'main' + suffix,
     exeIntName: 'main' + suffix.replace('.', '_'),
     targ:       targ,

@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/main_pem3.c"/>
     </sources>
     <configscripts>
-        <srcFile name="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/main.cfg"/>
+        <srcFile name="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/main.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/main_pem3.cfg"
         xCfgPrefix="package/cfg/main_pem3"
-        cfgScript="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/main.cfg"
+        cfgScript="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/main.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/main_pem3.cfg"
         xCfgPrefix="package/cfg/main_pem3"
-        cfgScript="/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/main.cfg"
+        cfgScript="/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/main.cfg"
         cfgArgs="null"
         />
     </executables>

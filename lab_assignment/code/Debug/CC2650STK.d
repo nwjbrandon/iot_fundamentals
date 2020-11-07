@@ -192,8 +192,8 @@ CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ti/sysbios/knl/package/Clock_TimerProxy.h
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272/driverlib/udma.h
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272/inc/hw_udma.h
-CC2650STK.obj: /home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Board.h
-CC2650STK.obj: /home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/CC2650STK.h
+CC2650STK.obj: /home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Board.h
+CC2650STK.obj: /home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/CC2650STK.h
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/UART.h
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/uart/UARTCC26XX.h
 CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/utils/RingBuf.h
@@ -477,8 +477,8 @@ CC2650STK.obj: /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ti/sysbios/knl/package/Clock_TimerProxy.h: 
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272/driverlib/udma.h: 
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272/inc/hw_udma.h: 
-/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/Board.h: 
-/home/nwjbrandon/Downloads/CS3237_CC2650_skeleton_code/CS3237_CC2650_skeleton_code/CC2650STK.h: 
+/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/Board.h: 
+/home/nwjbrandon/Documents/iot_fundamentals/lab_assignment/code/CC2650STK.h: 
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/UART.h: 
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/uart/UARTCC26XX.h: 
 /home/nwjbrandon/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/utils/RingBuf.h: 
